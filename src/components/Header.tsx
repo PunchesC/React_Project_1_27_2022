@@ -1,11 +1,9 @@
+import './Header.css'
 
 function Header(){
-  const headerStyle ={
-    backgroundColor: 'red',
-    color: '#fff'
-  }
+
 return (
-  <div style={headerStyle}>
+  <div className="Header">
     <h1>Groceries List</h1>
   </div>
 )
